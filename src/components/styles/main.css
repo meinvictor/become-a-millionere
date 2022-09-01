@@ -1,0 +1,17 @@
+.main {
+  width: 75%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+    url("../../assets/bg.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 50%;
+  position: relative;
+}
+
+.bottom {
+  height: 50%;
+}

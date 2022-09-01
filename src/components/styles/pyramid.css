@@ -1,0 +1,41 @@
+.pyramid {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010122;
+}
+
+.moneyList {
+    width: 100%;
+    padding: 20px;
+}
+
+.moneyListItem {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top:5px;
+    border-radius: 7px;
+}
+
+.moneyListItem.active {
+    padding: 9px;
+    border-radius: 7px;
+    background-color: teal;
+}
+
+.moneyListItemNumber {
+    font-size: 18px;
+    font-weight: 100;
+    opacity: .5;
+    width: calc(90%/2);
+    position: relative;
+    left: 20px;
+}
+.moneyListItemAmount {
+    font-size: 20px;
+    font-weight: 300;
+}

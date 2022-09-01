@@ -1,0 +1,55 @@
+.start {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .5), #020230),url(../../assets/start.jpg);
+}
+
+.logo {
+  font-family: "Silkscreen";
+  margin-bottom: 100px;
+}
+.logo span {
+  font-family: "Silkscreen";
+  color: #22c5ee;
+  animation: infinite 2s ease million;
+}
+@keyframes million {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #336fdd;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+.startInput {
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  background: rgb(216, 216, 216);
+  font: 1em "Silkscreen";
+}
+
+.startButton {
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  font: 1em "Silkscreen";
+  background: rgb(216, 216, 216);
+  transition: 0.2s all ease;
+}
+
+.startButton:hover {
+  transition: 0.2s all ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
